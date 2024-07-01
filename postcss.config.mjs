@@ -2,6 +2,10 @@
 const config = {
   plugins: {
     tailwindcss: {},
+    // auto prefixer browser
+    autoprefixer: {},
+    //convert to rem
+    'postcss-pxtorem': { propList: ['*'], rootValue: 16, minPixelValue: 50 },
   },
 };
 
