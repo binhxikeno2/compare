@@ -1,0 +1,9 @@
+{
+  "label": {
+    "email": "Email",
+    "password": "Password"
+  },
+  "btn": {
+    "submit": "Submit"
+  }
+}

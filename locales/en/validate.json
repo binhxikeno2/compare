@@ -1,0 +1,9 @@
+{
+  "error": {
+    "required": "{{field}} is required",
+    "email": "{{field}} is format email",
+    "number": "{{field}} is format number",
+    "min-length": "{{field}} is min {{length}} char",
+    "max-length": "{{field}} is max {{length}} char"
+  }
+}
