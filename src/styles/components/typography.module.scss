@@ -1,0 +1,50 @@
+@import '../common/function';
+
+.typography-root {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+
+  &__size {
+    :global(.ant-typography) {
+      line-height: 1.6;
+    }
+
+    &__extra-large {
+      font-size: calc-rem(40);
+    }
+
+    &__large {
+      font-size: calc-rem(32);
+    }
+
+    &__medium {
+      font-size: calc-rem(28);
+    }
+
+    &__normal {
+      font-size: calc-rem(22);
+    }
+
+    &__body {
+      font-size: calc-rem(16);
+    }
+
+    &__caption {
+      font-size: calc-rem(14);
+    }
+
+    &__small {
+      font-size: calc-rem(10);
+    }
+
+    &__minion {
+      font-size: calc-rem(8);
+    }
+  }
+}

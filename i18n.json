@@ -1,0 +1,10 @@
+{
+  "locales": ["en"],
+  "defaultLocale": "en",
+  "logBuild": false,
+  "loader": true,
+  "pages": {
+    "*": ["common", "validate"],
+    "/docs": ["doc"]
+  }
+}

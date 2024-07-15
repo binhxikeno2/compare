@@ -1,0 +1,19 @@
+@import '../common/function';
+
+.form-item-app {
+  $root: &;
+
+  display: flex;
+
+  &__layout {
+    &__vertical {
+      flex-direction: column;
+      @apply space-y-2;
+    }
+
+    &__horizontal {
+      flex-direction: row;
+      @apply space-x-2;
+    }
+  }
+}
