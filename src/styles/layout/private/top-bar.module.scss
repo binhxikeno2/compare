@@ -1,0 +1,26 @@
+@import '../../common/function';
+
+.top-bar-private {
+  width: 100%;
+  padding: calc-rem(8, 16);
+  background-color: theme('colors.primary');
+  display: flex;
+  justify-content: space-between;
+
+  @apply gap-4;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+
+    &__item {
+      padding: calc-rem(8, 16);
+      color: theme('colors.white' / 75%);
+      cursor: pointer;
+
+      &:hover {
+        color: theme('colors.white');
+      }
+    }
+  }
+}
