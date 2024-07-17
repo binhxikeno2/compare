@@ -15,6 +15,9 @@ export const AntdConfig = ({ children }: AntdConfigProps) => {
       Select: {
         controlHeight: 40,
       },
+      Button: {
+        defaultHoverBg: 'initial',
+      },
     },
   };
 

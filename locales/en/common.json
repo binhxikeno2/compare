@@ -2,5 +2,12 @@
   "title": "Title",
   "error": {
     "form_no_working": "Form not working"
+  },
+  "side-bar": {
+    "menu": {
+      "home": "Home",
+      "place": "Places",
+      "user": "Users"
+    }
   }
 }

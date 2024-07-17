@@ -5,5 +5,7 @@
   },
   "btn": {
     "submit": "Submit"
-  }
+  },
+  "test": "Test",
+  "longText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
 }
